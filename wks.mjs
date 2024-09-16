@@ -1,5 +1,5 @@
 //#region Task A
-console.log("Task A:");
+console.log("Task: A");
 
 const HOURS_A_DAY = 24;
 const MINUTES_IN_HOUR = 60;
@@ -18,7 +18,7 @@ console.log(millimetersOfRain);
 //#endregion
 addSpacing(1);
 //#region Task B
-console.log("Task B:");
+console.log("Task: B");
 
 const secondsIn2_5hours = MINUTES_IN_HOUR * SECONDS_IN_MINUTE *2.5;
 const minutesIn123Days = HOURS_A_DAY * MINUTES_IN_HOUR * 123;
@@ -28,7 +28,7 @@ console.log(minutesIn123Days);
 //#endregion
 addSpacing(1);
 //#region Task C
-console.log("Task C:");
+console.log("Task: C");
 
 for (let i=1; i <= 10; i++) {
     console.log(i);
@@ -36,7 +36,7 @@ for (let i=1; i <= 10; i++) {
 //#endregion
 addSpacing(1);
 //#region Task D
-console.log("Task D:");
+console.log("Task: D");
 
 for (let i = 10; i >= 1; i--) {
     console.log(i);
@@ -44,7 +44,7 @@ for (let i = 10; i >= 1; i--) {
 //#endregion
 addSpacing(1);
 //#region Task E
-console.log("Task E:");
+console.log("Task: E");
 
 for (let i = 2; i <= 100; i += 2) {
     console.log(i);
@@ -52,7 +52,7 @@ for (let i = 2; i <= 100; i += 2) {
 //#endregion
 addSpacing(1);
 //#region Task F
-console.log("Task F:")
+console.log("Task: F")
 
 let i = 0;
 while (i <= 100) {
@@ -61,6 +61,24 @@ while (i <= 100) {
 }
 //#endregion
 addSpacing(1);
+//#region Task G
+console.log("Task: G");
+
+const DICTIONARY_ML = {
+    no: {
+        hello: "Hello there",
+        howAreYou: "How are you doing?"
+    },
+    en: {
+        hello: "Hi",
+        howAreYou: "How are you?",
+        goodQuestionsLately: "Gotten any good questions lately?"
+    }
+};
+
+console.log(`${DICTIONARY_ML.en.hello} Christian ${DICTIONARY_ML.en.howAreYou}`);
+console.log(`${DICTIONARY_ML.en.goodQuestionsLately}`);
+//#endregion
 
 //#region Util Functions
 function addSpacing(lines = 1) {
