@@ -25,3 +25,20 @@ const minutesIn123Days = HOURS_A_DAY * MINUTES_IN_HOUR * 123;
 
 console.log(secondsIn2_5hours);
 console.log(minutesIn123Days);
+//#endregion
+
+//#region Task C
+console.log("Task C:");
+
+for (let i=1; i <= 10; i++) {
+    console.log(i);
+}
+//#endregion
+
+//#region Task D
+console.log("Task D:");
+
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+}
+//#endregion
